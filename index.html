@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width-device-width, initial-scale=1" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>UniTrento</title>
+
+    <style>
+      df-messenger {
+        --df-messenger-bot-message: #ce142c;
+        --df-messenger-button-titlebar-color: #ce142c;
+        --df-messenger-chat-background-color: #fafafa;
+        --df-messenger-font-color: white;
+        --df-messenger-send-icon: #ce142c;
+        --df-messenger-user-message: #5b5b5b;
+      }
+    </style>
+  </head>
+  <body>
+    <script src="https://www.gstatic.com/dialogflow-console/fast/messenger/bootstrap.js?v=1"></script>
+    <df-messenger
+      intent="WELCOME"
+      chat-title="Vence-UNITNBOT"
+      agent-id="308c1fbf-6725-4762-8f8e-369fb4ff55fb"
+      language-code="it"
+      chat-icon="logo.png"
+    ></df-messenger>
+  </body>
+</html>
